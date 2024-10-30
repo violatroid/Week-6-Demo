@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Elements</h1>
+    <script>
+        const fruit = ["apple", "banana","cherry"]; //creates an array
+
+        function add(content){
+            const number = index === undefined ? "" : index + 1;
+            const prefix = number === "" ? "" : number + " - ";
+            document.body.innerHTML += content + "<br>";
+        }
+
+        add("hello")
+        add("goodbye")
+
+        fruit.forEach(add) //apply add function to each array element 
+
+        ["bob", "carol", "ted", "alice"].forEach(addToPage);
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
